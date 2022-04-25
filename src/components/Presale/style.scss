@@ -38,7 +38,7 @@
       justify-content: center;
 
       & > h1 {
-        color: $yellow !important;
+        color: $pink !important;
         text-align: center;
       }
     }
@@ -62,12 +62,12 @@
         width: 100%;
         height: 2px;
         border-radius: 2px;
-        background-color: $yellow;
+        background-color: $pink;
       }
 
       & > p {
         width: min-content;
-        background-color: $yellow;
+        background-color: $pink;
         white-space: nowrap;
         margin: 0;
         padding: 4px 8px;
@@ -88,7 +88,7 @@
         align-items: center;
         justify-content: space-between;
         margin: 0;
-        color: $gray;
+        color: $black;
         font-size: 14px;
         font-weight: 600;
         line-height: 32px;
@@ -128,7 +128,7 @@
       }
 
       & > label {
-        color: $gray;
+        color: $black;
         font-size: 12px;
         font-weight: 600;
       }
@@ -136,7 +136,7 @@
       & > input {
         margin-top: 4px;
         border: none;
-        border-bottom: 1px solid $gray;
+        border-bottom: 1px solid $black;
         background-color: transparent;
         padding: 4px;
         font-size: 16px;
@@ -165,9 +165,9 @@
       text-align: center;
       cursor: pointer;
       border: none;
-      background-image: linear-gradient(135deg, $yellow, $orange);
-      box-shadow: inset 0 0 4px rgba($color: $yellow, $alpha: 0.4),
-        0 4px 8px rgba($color: $yellow, $alpha: 0.2);
+      background-image: linear-gradient(135deg, $pink, $pink-dark);
+      box-shadow: inset 0 0 4px rgba($color: $pink, $alpha: 0.4),
+        0 4px 8px rgba($color: $pink, $alpha: 0.2);
       transition: 0.3s;
 
       & > svg {
@@ -179,13 +179,13 @@
       }
 
       &:hover {
-        box-shadow: inset 0 0 4px rgba($color: $yellow, $alpha: 0.4),
-          0 4px 16px rgba($color: $yellow, $alpha: 0.2);
+        box-shadow: inset 0 0 4px rgba($color: $pink, $alpha: 0.4),
+          0 4px 16px rgba($color: $pink, $alpha: 0.2);
       }
 
       &:active {
-        box-shadow: inset 0 0 4px rgba($color: $yellow, $alpha: 0.4),
-          0 4px 8px rgba($color: $yellow, $alpha: 0.2);
+        box-shadow: inset 0 0 4px rgba($color: $pink, $alpha: 0.4),
+          0 4px 8px rgba($color: $pink, $alpha: 0.2);
       }
     }
   }
@@ -251,7 +251,7 @@
       font-size: 14px;
       font-weight: 600;
       padding: 4px 8px;
-      background-color: $gray;
+      background-color: $black;
     }
   }
 
@@ -279,7 +279,7 @@
 
       & > span {
         margin-top: 8px;
-        color: $gray;
+        color: $black;
         font-size: 12px;
         font-weight: bold;
         text-transform: uppercase;

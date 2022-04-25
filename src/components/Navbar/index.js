@@ -12,7 +12,7 @@ const Navbar = () => {
     <div className="navbar flex">
       <div className="navbar-wrapper container flex">
         <div className="navbar-first flex">
-          <a className="navbar-logo" href="https://xrxstoken.com">
+          <a className="navbar-logo" href="https://www.luckybunny.farm">
             <img src={Logo} alt="logo" />
           </a>
         </div>
